@@ -1,0 +1,12 @@
+#image1 {
+
+    float: right;
+    border: 2px solid brown;
+    margin: 15px;
+    display: flow-root;
+}
+
+body {
+    border: 5px solid hsl(43, 92%, 39%);
+
+}

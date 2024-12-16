@@ -1,0 +1,61 @@
+.pagination {
+
+    text-align:center;
+}
+.pagination a{
+    text-decoration: none;
+    color: black;
+    padding: 8px 15px;
+    display: inline;
+}
+
+.pagination a.active{
+    background-color: greenyellow;
+    border-radius: 10PX;
+
+}
+.pagination a.errow{
+    background-color: hsl(0, 6%, 87%);
+    border-radius: 10PX;
+}
+
+.pagination a:hover:not(.active) {
+    background-color: hsl(0, 6%, 87%);
+    border-radius: 10PX;
+}
+.drop button {
+    background-color: rgb(241, 137, 241);
+    padding: 10px 30px;
+    color: black;
+    border: none;
+    
+}
+.drop a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: 10px 30px;
+    
+}
+.drop .side{
+    display: none;
+    position: absolute;
+    background-color: whitesmoke;
+    min-width: 100px;
+    box-shadow: 2px 2px 5px hsl(0, 4%, 11%);
+}
+.drop:hover .side{
+    display: block;
+    
+}
+.drop:hover button{
+    background-color: aquamarine;
+}
+.drop a:hover {
+    background-color: hsl(34, 76%, 75%);
+    
+}
+.drop {
+    display: inline;
+
+}
